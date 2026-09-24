@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+void Display(int No1, int No2)
+{
+    printf("%d %d\n",No1,No2);
+}
+
+int main()
+{
+    int A = 11;
+    int B = 21;
+
+    Display(A,B);       // Call by Value 
+
+    return 0;
+}
